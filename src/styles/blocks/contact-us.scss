@@ -1,6 +1,7 @@
 .contact-us {
   &__gridWrapper {
     @include pageGrid;
+
     row-gap: 48px;
   }
 

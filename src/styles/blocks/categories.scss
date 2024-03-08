@@ -1,8 +1,8 @@
 .categories {
   &__wrapper {
     display: grid;
-    row-gap: 40px;
-    column-gap: 55px;
+
+    gap: 40px 55px;
 
     @include onTablet {
       row-gap: 48px;
@@ -14,6 +14,7 @@
     grid-column: 1 / -1;
     &-wrap {
       @include pageGrid;
+
       margin: 0;
       padding: 0;
     }

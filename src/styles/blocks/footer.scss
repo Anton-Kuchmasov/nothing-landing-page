@@ -5,6 +5,7 @@
     background-image: url("../images/before-about-us-picture.png");
     background-size: cover;
     background-position: center;
+
     @include onTablet {
       height: 400px;
     }
@@ -17,6 +18,7 @@
   &__content {
     padding-top: 56px;
     padding-bottom: 120px;
+
     @include contentPaddingInline;
   }
 }
